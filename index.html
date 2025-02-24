@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
+    <title>The History Archive</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar paper-effect">
+        <div class="nav-brand">The History Archive</div>
+        <div class="nav-links">
+            <a href="html/login.html" class="nav-link">Login</a>
+            <a href="html/signup.html" class="nav-link">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Timeline Navigation -->
+        <div class="timeline-nav paper-effect">
+            <h2 class="decorative-border">Historical Timeline</h2>
+            <div class="years-list" id="yearsList">
+                <!-- Years will be populated dynamically -->
+            </div>
+        </div>
+
+        <!-- Content Area -->
+        <div class="content-area paper-effect">
+            <div id="yearContent" class="year-content">
+                <!-- Add initial loading state -->
+                <div class="loading-spinner">
+                    <div class="loading-text">Loading historical data...</div>
+                </div>
+            </div>
+            <div id="timeline" class="timeline-container">
+                <!-- Timeline content will be populated here -->
+            </div>
+        </div>
+        <div class="background-slideshow">
+            <img src="https://i.pinimg.com/originals/25/e6/98/25e698e2bca2e37b8e379841490c8710.jpg" alt="Historical Image 1">
+            <img src="https://historact.com/wp-content/uploads/2024/02/cf1b7ef2-7def-4268-9447-afb3a3d1d349.webp" alt="Historical Image 2">
+            <img src="https://cdnb.artstation.com/p/assets/images/images/012/372/901/small/marc-simonetti-roman-kitbash2.jpg?1534449251" alt="Historical Image 3">
+            <img src="https://cdn.britannica.com/59/59359-050-9B5659DC/garden-herb-illumination-French-pleasure-area-Roman.jpg" alt="Historical Image 4">
+            <img src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1657572126/EducationHub/photos/RLTUT_Key_image.jpg" alt="Historical Image 5">
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>

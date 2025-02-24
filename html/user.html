@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty History - User</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/user.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The History Archive</h1>
+            <div class="header-buttons">
+                <a href="../index.html" class="home-btn">Home</a>
+                <button id="logoutBtn" class="logout-btn">Logout</button>
+            </div>
+        </header>
+
+        <div class="user-content paper-effect">
+            <div class="year-form decorative-border">
+                <h2>Write here</h2>
+                <form id="yearForm">
+                    <div class="input-group">
+                        <input type="text" id="yearInput" placeholder="Year (e.g., 500 BC, 2024 AD)" required>
+                    </div>
+                    <div class="input-group">
+                        <div class="editor-controls">
+                            <button type="button" class="format-btn" data-format="bold">B</button>
+                            <button type="button" class="format-btn" data-format="italic">I</button>
+                            <button type="button" class="format-btn" data-format="underline">U</button>
+                            <button type="button" class="format-btn" data-format="indent">→</button>
+                            <button type="button" class="format-btn" data-format="outdent">←</button>
+                            <select class="format-btn" data-format="fontFamily">
+                                <option value="'Times New Roman', serif" selected>Times New Roman</option>
+                                <option value="'Crimson Text', serif">Crimson Text</option>
+                                <option value="'Georgia', serif">Georgia</option>
+                                <option value="'Palatino', serif">Palatino</option>
+                                <option value="'Garamond', serif">Garamond</option>
+                                <option value="'Baskerville', serif">Baskerville</option>
+                                <option value="'Bookman', serif">Bookman</option>
+                                <option value="'Cambria', serif">Cambria</option>
+                                <option value="'Arial', sans-serif">Arial</option>
+                                <option value="'Helvetica', sans-serif">Helvetica</option>
+                                <option value="'Verdana', sans-serif">Verdana</option>
+                                <option value="'Tahoma', sans-serif">Tahoma</option>
+                                <option value="'Century Gothic', sans-serif">Century Gothic</option>
+                            </select>
+                            <select class="format-btn" data-format="fontSize">
+                                <option value="1">Small</option>
+                                <option value="2">Normal</option>
+                                <option value="3" selected>Default size</option>
+                                <option value="4">Large</option>
+                                <option value="5">Larger</option>
+                            </select>
+                            <select class="format-btn" data-format="color">
+                                <option value="var(--text-primary)">Black</option>
+                                <option value="#4CAF50">Green</option>
+                                <option value="#2196F3">Blue</option>
+                                <option value="#F44336">Red</option>
+                                <option value="#FFC107">Yellow</option>
+                            </select>
+                        </div>
+                        <textarea id="descriptionInput" placeholder="Historical Description" required></textarea>
+                    </div>
+                    <button type="submit" id="submitBtn">Save Entry</button>
+                </form>
+            </div>
+            
+            <div id="currentEntry" class="current-entry decorative-border">
+                <!-- User's current entry will be displayed here -->
+            </div>
+        </div>
+        <div class="background-slideshow">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Alexander_the_Great_Founding_Alexandria.jpg" alt="Historical Image 1">
+            <img src="https://cdn.britannica.com/44/116044-050-BA81358E/Alexander-the-Great-army-forces-Persian-Battle-333-bce.jpg" alt="Historical Image 2">
+            <img src="https://vtwp-media.s3-accelerate.amazonaws.com/2023/07/four-beauties.jpg" alt="Historical Image 3">
+            <img src="https://cdn.britannica.com/59/59359-050-9B5659DC/garden-herb-illumination-French-pleasure-area-Roman.jpg" alt="Historical Image 4">
+            <img src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1657572126/EducationHub/photos/RLTUT_Key_image.jpg" alt="Historical Image 5">
+        </div>
+    </div>
+
+    <script type="module" src="../js/user.js"></script>
+
+</body>
+</html> 
