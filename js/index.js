@@ -1,5 +1,5 @@
 import { db } from './firebase-config.js';
-import { ref, get, query, orderByChild } from 'firebase/database';
+import { ref, get, query, orderByChild } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js';
 
 // DOM Elements
 const yearsList = document.getElementById('yearsList');

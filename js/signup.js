@@ -1,6 +1,6 @@
 import { db, auth } from './firebase-config.js';
-import { ref, get, set } from 'firebase/database';
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { ref, get, set } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js';
+import { createUserWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js';
 
 const signupForm = document.getElementById('signupForm');
 const errorMessage = document.getElementById('errorMessage');

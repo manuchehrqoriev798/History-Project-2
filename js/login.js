@@ -1,6 +1,6 @@
 import { db, auth } from './firebase-config.js';
-import { ref, get } from 'firebase/database';
-import { signInWithEmailAndPassword } from 'firebase/auth';
+import { ref, get } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js';
+import { signInWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js';
 
 const loginForm = document.getElementById('loginForm');
 const errorMessage = document.getElementById('errorMessage');
