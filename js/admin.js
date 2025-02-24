@@ -1,5 +1,5 @@
-import { db } from './firebase-config.js';
-import { ref, set, get, remove, query, orderByChild, equalTo } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js';
+import { db, auth } from './firebase-config.js';
+import { ref, set, get, remove, query, orderByChild, equalTo } from 'firebase/database';
 import { initializeRichTextEditor } from './richTextEditor.js';
 
 // Check if user is logged in as admin

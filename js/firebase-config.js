@@ -1,8 +1,8 @@
-// Import Firebase modules from CDN
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js';
-import { getAnalytics } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-analytics.js';
-import { getAuth } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js';
-import { getDatabase } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js';
+// Import Firebase modules
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import { getAuth } from "firebase/auth";
+import { getDatabase } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {

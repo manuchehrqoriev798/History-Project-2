@@ -1,5 +1,5 @@
 import { db, auth } from './firebase-config.js';
-import { ref, get, set, query, orderByChild } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js';
+import { ref, get, set } from 'firebase/database';
 import { signInWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js';
 import { initializeRichTextEditor } from './richTextEditor.js';
 
