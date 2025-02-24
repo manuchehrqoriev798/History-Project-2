@@ -6,14 +6,14 @@ import { getDatabase } from 'https://www.gstatic.com/firebasejs/9.1.3/firebase-d
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD1Qr-mxA7KtuD_CszDtuo5WT13e2JlUI8",
-  authDomain: "history-platform.firebaseapp.com",
-  databaseURL: "https://history-platform-default-rtdb.firebaseio.com",
-  projectId: "history-platform",
-  storageBucket: "history-platform.firebasestorage.app",
-  messagingSenderId: "160494346743",
-  appId: "1:160494346743:web:e7c164996eaad632f0cef2",
-  measurementId: "G-L47L6D9PD7"
+  apiKey: "AIzaSyCZwn4uJUTztBvZa_87I5wlVcQ2Y6gmEKE",
+  authDomain: "history-project-freshman.firebaseapp.com",
+  databaseURL: "https://history-project-freshman-default-rtdb.firebaseio.com",
+  projectId: "history-project-freshman",
+  storageBucket: "history-project-freshman.firebasestorage.app",
+  messagingSenderId: "1033275058528",
+  appId: "1:1033275058528:web:7af703211005b1c26f5605",
+  measurementId: "G-J4RM1WKB0J"
 };
 
 // Initialize Firebase
